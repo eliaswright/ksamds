@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="kinema.candybar.CandyBarSplash">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="66b4e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="4" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="Candy Bar Manager"/>
+        </properties>
+      </component>
+      <component id="2dd9d" class="javax.swing.JButton" binding="suppliersButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="154" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="*Suppliers"/>
+        </properties>
+      </component>
+      <component id="eb675" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="4" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Manage list of candy bar suppliers"/>
+        </properties>
+      </component>
+      <component id="29234" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Manage list of candy bar items"/>
+        </properties>
+      </component>
+      <component id="12318" class="javax.swing.JButton" binding="stocktakeButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="154" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="*Stocktake"/>
+        </properties>
+      </component>
+      <component id="e579e" class="javax.swing.JButton" binding="returnButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="154" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="*Return"/>
+        </properties>
+      </component>
+      <component id="4f7ba" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Enter stock take information"/>
+        </properties>
+      </component>
+      <component id="40c7d" class="javax.swing.JButton" binding="itemsButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="154" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="*Items"/>
+        </properties>
+      </component>
+      <component id="a008a" class="javax.swing.JButton" binding="inventoryButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="*Inventory"/>
+        </properties>
+      </component>
+      <component id="29852" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="View current inventory"/>
+        </properties>
+      </component>
+      <component id="bbf63" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Returns to Main screen"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
